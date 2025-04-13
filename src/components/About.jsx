@@ -38,12 +38,11 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I’m a Front-End Developer located in New Delhi. I have a serious passion for coding and creating intuitive, dynamic user experiences.
-        Interested in the entire frontend spectrum, I'm a well-organised person, problem solver, independent employee with high attention to detail. Fan of Country Music, TV series and English literature. <br/> <br/>
-        I'm probably not the typical designer positioned behind an Illustrator artboard adjusting pixels, but I design. Immersed in stylesheets tweaking font sizes and contemplating layouts is where you'll find me (~_^). I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.
-        
-        In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale — performance and scalabilty are priorities on my radar.
+        I'm a Frontend Engineer who enjoys creating responsive web platforms, coding best practices, finding solutions to technical challenges and staying up-to-date with the latest web technologies. I'm impact driven, value feedback, and love to learn.
 
+My expertise lies in frontend architecture, system design, user experience strategy, and client-server integrations. I have experience in graphic design and video editing as well.
+
+My personal interests include: technology, film and music, sports and fitness, current events, trends and reading, education and art.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

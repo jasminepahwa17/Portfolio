@@ -27,8 +27,15 @@ import xculture from "./company/xculture.jpeg";
 import miclone from "./miclone.jpg";
 import passport from "./passport.jpg";
 import portfolioo from "./portfolioo.jpg";
+import factacy from "../assets/factacy.png";
+import image from "../assets/image.png";
+import insights from "../assets/factacyinsights.png";
+import digitek from "../assets/digitek.png";
+import bidwars from "../assets/bidwars.png";
+import startupai from "../assets/startupai.png";
 
 export {
+  factacy,
   logo,
   backend,
   creator,
@@ -55,4 +62,9 @@ export {
   miclone,
   passport,
   portfolioo,
+  image,
+  insights,
+  digitek,
+  bidwars,
+  startupai,
 };
