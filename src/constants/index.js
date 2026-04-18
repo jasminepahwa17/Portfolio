@@ -17,7 +17,7 @@ import {
   figma,
   docker,
   fablearner,
-  xculture,
+  ticketmastericon,
   miclone,
   passport,
   portfolioo,
@@ -117,11 +117,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer 2",
+    company_name: "Ticketmaster",
+    icon: ticketmastericon,
+    iconBg: "#026CDF",
+    date: "July 2025 - Present",
+    points: [
+      "Engineered and maintained scalable dev and production environments using Docker, GitLab CI/CD, and DBeaver, streamlining deployment workflows across teams.",
+      "Delivered frontend features for high-traffic sports and ticketing products serving 100K+ users, leveraging React and Next.js for performant, responsive interfaces.",
+      "Drove migration of critical legacy features to a modern Next.js stack, significantly reducing technical debt and accelerating feature delivery velocity.",
+      "Authored unit tests using Jest to improve code reliability and reduce regression bugs during Next.js migration.",
+    ],
+  },
+  {
     title: "Frontend Engineer",
     company_name: "Factacy Private Limited",
     icon: factacy,
     iconBg: "#383E56",
-    date: "April 2023 - Present",
+    date: "April 2023 - July 2025",
     points: [
       "Built Factacy Insights, a real-time data visualization platform using React.js and GraphQL, serving over 5,000+ users with dynamic charts and global startup insights.",
       "Created a WebRTC-based gesture recognition app with MediaPipe and OpenCV, achieving gesture evaluation with 250ms latency.",
@@ -130,17 +143,6 @@ const experiences = [
       "Built an AI chatbot for Digitek using React.js, Tailwind CSS, improving customer query resolution by 30%. Integrated into their Shopify store via custom JavaScript.",
       "Developed reusable, modular components to reduce code duplication and enhance deployment efficiency.",
       "Implemented and optimized GraphQL queries for real-time updates, accelerating data retrieval speed by 50%."
-    ],
-  },
-  {
-    title: "Project Intern",
-    company_name: "X-culture",
-    icon: xculture,
-    iconBg: "#E6DEDD",
-    date: "Aug 2020 - Dec 2020",
-    points: [
-      "Successfully completed the X-culture Global Collaboration Course involving theoritical training and two months of practical experience as a member of a Global Virtual Team",
-      "Each international team completed a consulting project for a real international company and developed an international market entry strategy.",
     ],
   },
 ];

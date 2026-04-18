@@ -22,12 +22,12 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import fablearner from "./company/fablearner.jpeg";
-import xculture from "./company/xculture.jpeg";
+import ticketmastericon from "./company/ticketmastericon.png";
 
 import miclone from "./miclone.jpg";
 import passport from "./passport.jpg";
 import portfolioo from "./portfolioo.jpg";
-import factacy from "../assets/factacy.png";
+import factacy from "../assets/company/factacy.png";
 import image from "../assets/image.png";
 import insights from "../assets/factacyinsights.png";
 import digitek from "../assets/digitek.png";
@@ -57,7 +57,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  xculture,
   fablearner,
   miclone,
   passport,
@@ -67,4 +66,5 @@ export {
   digitek,
   bidwars,
   startupai,
+  ticketmastericon
 };

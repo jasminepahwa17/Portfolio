@@ -30,6 +30,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill in all the fields.");
+      setLoading(false);
+      return;
+    }
 
     emailjs
       .send(
@@ -70,7 +75,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='w-full bg-black-100 p-8 rounded-2xl'
+        className='w-[70%] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
